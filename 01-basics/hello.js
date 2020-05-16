@@ -1,0 +1,1 @@
+console.log("Welcome to Deno , 歡迎使用 !");
