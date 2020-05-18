@@ -1,5 +1,38 @@
 # Deno 安裝
 
+## Mac 安裝
+
+> curl -fsSL https://deno.land/x/install/install.sh | sh
+
+然後編輯 ~/.bash_profile 加入
+
+```
+export DENO_INSTALL="/Users/mac020/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+```
+
+接著用 chmod 777 ~/.bash_profile
+
+然後 deno 就可以執行成功了！
+
+```
+mac020:ccc mac020$ vim ~/.bash_profile
+mac020:ccc mac020$ deno
+Deno 1.0.0
+exit using ctrl+d or close()
+
+mac020:ccc mac020$ deno run https://deno.land/std/examples/welcome.ts
+Download https://deno.land/std/examples/welcome.ts
+Warning Implicitly using master branch https://deno.land/std/examples/welcome.ts
+Compile https://deno.land/std/examples/welcome.ts
+Welcome to Deno 🦕
+```
+
+
+
+
+## Windows 安裝
+
 在 windows 中，請先用《系統管理員身分》進行下列指令。
 (用 vscode 也請按滑鼠右鍵啟動 vscode 之後才做這件事)
 
