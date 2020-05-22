@@ -13,6 +13,7 @@
 ## deno
 
 * 套件 -- https://deno.land/x/postgres
+    * 文件 -- https://deno-postgres.com/#/
 
 ## 如何停止 postgresql server
 
